@@ -2,19 +2,10 @@
   "compilerOptions": {
     "target": "es2016",
     "module": "commonjs",
-    "lib": [
-      "dom",
-      "es2015",
-      "es2016",
-      "es2017",
-      "esnext.asynciterable"
-    ],
+    "lib": ["dom", "es2015", "es2016", "es2017", "esnext.asynciterable"],
     "inlineSourceMap": true,
     "moduleResolution": "node",
-    "types": [
-      "node",
-      "jest"
-    ],
+    "types": ["node"],
     "baseUrl": ".",
     "rootDir": "src",
     "outDir": "dist",
@@ -26,12 +17,6 @@
     "allowJs": true,
     "resolveJsonModule": true
   },
-  "include": [
-    "src"
-  ],
-  "exclude": [
-    "node_modules",
-    "src/**/__mocks__",
-    "src/**/__tests__"
-  ]
+  "include": ["src"],
+  "exclude": ["node_modules", "src/**/__mocks__", "src/**/__tests__"]
 }
